@@ -5,9 +5,9 @@
  
 /*
 Plugin Name: movingboxes-wp
-Plugin URI: http://www.web-first.co.uk/wordpress/movingboxes-wordpress-plugin/
+Plugin URI: http://www.web-first.co.uk/wordpress/moving-boxes-wordpress-plugin/
 Description: Take images from a WordPress post and build a MovingBoxes Slider from them.
-Version: 0.4.1
+Version: 0.4.2
 Author: Jon Horner
 License: GPL2
 
@@ -33,7 +33,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 // Define plugin constants
 define('MB_VERSION', '2.1.4'); // Version number of MovingBoxes used
-define('MB_WP_PLUGIN_VERSION', '0.4.1'); // Version number of this WordPress plugin
+define('MB_WP_PLUGIN_VERSION', '0.4.2'); // Version number of this WordPress plugin
 define('PLUGIN_NAME', 'MovingBoxes');
 define('SHORTCODE_NAME', 'MovingBoxes');
 define('CUSTOM_SHORTCODE_NAME', 'CustomMovingBoxes');
@@ -66,7 +66,7 @@ function movingboxes_links($links,$file) {
     $base = plugin_basename(__FILE__);
     if ($file == $base) {
         $links[] = '<a href="/wp-admin/options-general.php?page='.PLUGIN_NAME.'">' . __('Settings') . '</a>';
-       // $links[] = '<a href="http://web-first.dev/wordpress/movingboxes-wordpress-plugin/">' . __('Donate') . '</a>';
+        $links[] = '<a href="http://www.web-first.co.uk/wordpress/moving-boxes-wordpress-plugin/">' . __('Support') . '</a>';
     }
     return $links;
 }

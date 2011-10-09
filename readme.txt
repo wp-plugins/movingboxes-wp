@@ -1,6 +1,6 @@
 === movingboxes-wp ===
 Contributors: jonhorner
-Donate link: http://web-first.co.uk/
+Donate link: http://www.web-first.co.uk/wordpress/moving-boxes-wordpress-plugin/
 Tags: simple, gallery, slider, images, image, Moving Boxes, jquery, pictures, thumbnail, shortcode
 Requires at least: 3.0
 Tested up to: 3.2.1
@@ -49,10 +49,14 @@ None as yet. If you have a question please ask it here: http://www.web-first.co.
 
 == Upgrade Notice ==
 
-This is the first public release.
+No functionality updates, just fixed some broken links.
 
 
 == Changelog ==
+
+= 0.4.2 =
+* Added support link
+* Fixed plugin link
 
 = 0.4.1 =
 * Initial release. Provides basic configuration options and the original template.
